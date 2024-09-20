@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorldSkills</string>
+
+    <string name="morada1"><a href="https://maps.app.goo.gl/hdcgH3jAwYPzhxtZ8">Rua de Xabregas, 52</a></string>
+    <string name="morada2"><a href="https://maps.app.goo.gl/hdcgH3jAwYPzhxtZ8">1949-003 Lisboa</a></string>
+    <string name="morada3"><a href="https://maps.app.goo.gl/hdcgH3jAwYPzhxtZ8">Portugal</a></string>
+
+    <string name="email_info"><a href="mailto:info@sp.worldskillsportugal.pt">info@sp.worldskillsportugal.pt</a></string>
+    <string name="email_secretariado"><a href="mailto:secretariado.wsp@sp.worldskillsportugal.pt">secretariado.wsp@sp.worldskillsportugal.pt</a></string>
+    <string name="email_suporte"><a href="mailto:suporte@sp.worldskillsportugal.pt">suporte@sp.worldskillsportugal.pt</a></string>
+
+</resources>

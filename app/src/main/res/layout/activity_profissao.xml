@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".views.ProfissaoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/button_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_settings" />
+
+        <ImageView
+            android:id="@+id/button_messages"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_chat" />
+
+        <ImageView
+            android:id="@+id/button_menu_geral"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_buttton_menugeral" />
+
+        <ImageView
+            android:id="@+id/button_badges"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_badges" />
+
+        <ImageView
+            android:id="@+id/button_login_perfil"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_user" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text_nome_profissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/susan_bold"
+            android:textColor="@color/background"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_descricao_profissao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="24sp"
+            android:layout_margin="20dp"
+            android:gravity="left"
+            android:fontFamily="@font/susan_book"
+            android:textColor="@color/background"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_saber_mais"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/white_button"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Saber mais"
+            android:fontFamily="@font/susan_bold"
+            android:textColor="@color/background"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text_concorrentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:text="Concorrentes"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/susan_bold"
+            android:textColor="@color/background"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_concorrentes_profissao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_ver_mapa"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_button"
+            android:layout_gravity="center"
+            android:text="Ver mapa"
+            android:fontFamily="@font/susan_bold"
+            android:textColor="@color/background"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

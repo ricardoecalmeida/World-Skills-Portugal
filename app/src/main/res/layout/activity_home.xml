@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".views.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/button_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_settings" />
+
+        <ImageView
+            android:id="@+id/button_messages"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_chat" />
+
+        <ImageView
+            android:id="@+id/button_menu_geral"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_buttton_menugeral" />
+
+        <ImageView
+            android:id="@+id/button_badges"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_badges" />
+
+        <ImageView
+            android:id="@+id/button_login_perfil"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_user" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_profissoes"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_profissoes_azul" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_profissoes"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingRight="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Profissões"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_noticias"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_noticias_azul" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_noticias"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="35dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Notícias"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_calendario"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_calendario_azul" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_calendario"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="35dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Calendário"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_map"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_map" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_mapa"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="35dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Mapa"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_recomendacoes"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_recomendacoes_azul" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_recomendacoes"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="35dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Recomendações"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_sobre"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_sobre_azul" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_sobre"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="35dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Sobre"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_contatos"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/background"
+                    android:src="@drawable/icon_contatos_azul" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_contatos"
+                    android:layout_width="256dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:paddingRight="35dp"
+                    android:background="@drawable/button_menu"
+                    android:text="Contactos"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/susan_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

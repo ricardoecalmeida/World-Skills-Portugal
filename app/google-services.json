@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "817605670398",
+    "project_id": "worldskills-15026",
+    "storage_bucket": "worldskills-15026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817605670398:android:01d3ceeb2c3512de787caf",
+        "android_client_info": {
+          "package_name": "com.example.worldskillsproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".views.SobreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/button_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_settings" />
+
+        <ImageView
+            android:id="@+id/button_messages"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_chat" />
+
+        <ImageView
+            android:id="@+id/button_menu_geral"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_buttton_menugeral" />
+
+        <ImageView
+            android:id="@+id/button_badges"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_badges" />
+
+        <ImageView
+            android:id="@+id/button_login_perfil"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:src="@drawable/icon_user" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:fontFamily="@font/susan_bold"
+        android:text="Sobre"
+        android:textAlignment="center"
+        android:textColor="@color/mainblue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/white"
+                android:fontFamily="@font/susan_book"
+                android:text="O que é a World Skills Portugal?"
+                android:textColor="@color/mainblue"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:paddingBottom="14dp"
+                android:background="@color/white"
+                android:fontFamily="@font/susan_book"
+                android:lineHeight="24dp"
+                android:text="A estrutura da Worldskills Portugal encontra-se integrada no Instituto do Emprego e Formação Profissional, I.P. (IEFP, I.P.), representando Portugal,  por esta via, na WorldSkills Europe e na WorldSkills International. É ainda ao IEFP, I.P.  que compete organizar e realizar o Campeonato das Profissões a nível nacional e assumir a representação portuguesa nos campeonatos internacionais.\nEstas  competições são dirigidas a jovens entre os 17 e os 25 anos, que concluíram ou se encontram a frequentar um percurso de qualificação, em modalidades de educação e formação profissional, e visam demonstrar o nível individual de competências, rigor e domínio de técnicas e de ferramentas para o exercício de cada profissão a concurso, através da realização de provas práticas de desempenho avaliadas segundo critérios exigentes e de acordo com prescrições técnicas estabelecidas internacionalmente por júris compostos de peritos altamente qualificados (formadores, profissionais, empresários).\nCom estes Campeonatos, que se pretendem amplamente participados, visa-se aferir a eficácia da formação profissional ministrada pelos diferentes operadores, e, simultaneamente, induzir fatores de crescente qualidade, inovação e criatividade nos processos de ensino-aprendizagem.\nOs Campeonatos têm lugar de 2 em 2 anos e reúnem os classificados com as melhores pontuações na fase de pré-seleção, que disputam entre si o título de campeão nacional em cada profissão.\nOs campeões da fase nacional candidatam-se a uma participação nos Campeonatos Europeu e Mundial das Profissões, organizados, respetivamente, pela WorldSkills Europe e pela WorldSkills International.\n\nVISÃO\nMelhorar Portugal com o poder das competências.\n\nMISSÃO\nPromover o reconhecimento das qualificações e demonstrar a importância que assumem para o crescimento económico e para o sucesso individual de cada pessoa.\n\nPOSICIONAMENTO\nQueremos constituir-nos como uma plataforma para o desenvolvimento e para a excelência das qualificações."
+                android:textColor="@color/mainblue"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

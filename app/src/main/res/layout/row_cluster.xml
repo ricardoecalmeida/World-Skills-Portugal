@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cluster"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/susan_bold"
+        android:background="@drawable/cluster_box"
+        android:textColor="@color/mainblue" />
+
+</LinearLayout>
